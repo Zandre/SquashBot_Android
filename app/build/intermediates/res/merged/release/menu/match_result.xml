@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.squashbotv2.MatchResult" >
+
+    <item
+        android:id="@+id/matchResult_next"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:icon="@drawable/next"/>
+    
+   <item
+        android:id="@+id/matchResult_previous"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:icon="@drawable/back"/>
+   
+   <item
+        android:id="@+id/matchResult_import"
+        android:orderInCategory="0"
+        android:showAsAction="always"
+        android:title="Import"/>
+
+</menu>

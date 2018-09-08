@@ -1,0 +1,278 @@
+[
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_jarvis_contacts.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\fragment_jarvis_contacts.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog3.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\dialog3.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_ranking_editor.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\fragment_ranking_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_filter.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\fragment_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_enter_names.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\activity_enter_names.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_jarvis.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\activity_jarvis.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_verify_result.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\fragment_verify_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\ranking_layout.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\ranking_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_scoreboard.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\activity_scoreboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog4.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\dialog4.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_filter.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\activity_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_verify_result.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\activity_verify_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_decor_include.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_bar_decor_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_ranking_editor.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\activity_ranking_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\contact.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_enter_names.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\fragment_enter_names.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_scoreboard.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\fragment_scoreboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_options_menu.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\activity_options_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\blue_toast.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\blue_toast.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_enter_team_result.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\fragment_enter_team_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\edit_dialog.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\edit_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_logs.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\fragment_logs.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\select_result.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\select_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_rankings.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\activity_rankings.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_home.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_bar_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\red_toast.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\red_toast.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_decor_overlay.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_bar_decor_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\venue.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\venue.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_match_result.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\fragment_match_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\log_layout.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\log_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_options_menu.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\fragment_options_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\event_layout.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\event_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_close_item.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_mode_close_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog1.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\dialog1.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_select_result.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\activity_select_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_select_result.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\fragment_select_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_tab.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_bar_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_dashboard.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view_include.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\scoreboard_result.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\scoreboard_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_tabbar.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_bar_tabbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\teamresult_layout.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\teamresult_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_rankings.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\fragment_rankings.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_score_game.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\activity_score_game.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_match_result.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\activity_match_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\layout_information_board.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\layout_information_board.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_logs.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\activity_logs.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog2.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\dialog2.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_score_game.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\fragment_score_game.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_jarvis_contacts.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\activity_jarvis_contacts.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_jarvis.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\fragment_jarvis.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_enter_team_result.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\activity_enter_team_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\fixture_layout.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\layout\\fixture_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    }
+]

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dark_blue_orange_edge_background"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/tv_venueName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="3dp"
+        android:text="Defence"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Navy"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_venueAdr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_venueName"
+        android:paddingRight="10dp"
+        android:text="Address:"
+        android:textColor="@color/Navy"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_venueAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_venueName"
+        android:layout_toRightOf="@+id/tv_venueAdr"
+        android:paddingBottom="3dp"
+        android:text="12 Kiewiet Street, Potch Bla bla blabsduivhqeuirveruip"
+        android:textColor="@color/Navy" />
+
+
+
+</RelativeLayout>

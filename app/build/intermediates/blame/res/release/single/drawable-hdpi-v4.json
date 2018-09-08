@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\tab_unselected.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\drawable-hdpi\\tab_unselected.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\squashcourt.jpg",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\drawable-hdpi\\squashcourt.jpg"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\dark_blue_orange_edge_background.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\drawable-hdpi\\dark_blue_orange_edge_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\tab.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\drawable-hdpi\\tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\button.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\drawable-hdpi\\button.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\dialog_button.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\drawable-hdpi\\dialog_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\dropdown_list.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\drawable-hdpi\\dropdown_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\tab_selected.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\drawable-hdpi\\tab_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ranking.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\drawable-hdpi\\ranking.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\switch_color.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\drawable-hdpi\\switch_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\dropdown_item.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\drawable-hdpi\\dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\button_pressed.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\drawable-hdpi\\button_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\light_blue_background.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\drawable-hdpi\\light_blue_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\spinner_item.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\drawable-hdpi\\spinner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\dialog_button_pressed.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\drawable-hdpi\\dialog_button_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\actionbar_theme.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\drawable-hdpi\\actionbar_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\dropdown_theme.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\drawable-hdpi\\dropdown_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\button_normal.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\drawable-hdpi\\button_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\switch_style.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\drawable-hdpi\\switch_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\dialog_button_normal.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\drawable-hdpi\\dialog_button_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\dialog_background.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\drawable-hdpi\\dialog_background.xml"
+    }
+]

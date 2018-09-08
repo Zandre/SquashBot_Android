@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.squashbotv2.VerifyResult" >"
+
+    <item
+        android:id="@+id/verify_edit"
+        android:showAsAction="always"
+		android:icon="@drawable/light_ic_action_edit">
+		<menu>
+		    <item
+		        android:id="@+id/match1"
+		        android:orderInCategory="1"
+		        android:title="Edit Position/Match #1"
+		        android:showAsAction="always"/>
+		    
+		    <item
+		        android:id="@+id/match2"
+		        android:orderInCategory="2"
+		        android:title="Edit Position/Match #2"
+		        android:showAsAction="always"/>
+		    
+		    <item
+		        android:id="@+id/match3"
+		        android:orderInCategory="3"
+		        android:title="Edit Position/Match #3"
+		        android:showAsAction="always"/>
+		    
+		    <item
+		        android:id="@+id/match4"
+		        android:orderInCategory="4"
+		        android:title="Edit Position/Match #4"
+		        android:showAsAction="always"/>
+		    
+		    <item
+		        android:id="@+id/match5"
+		        android:orderInCategory="5"
+		        android:title="Edit Position/Match #5"
+		        android:showAsAction="always"/>		    		    		    		    
+		</menu>
+	</item>
+</menu>

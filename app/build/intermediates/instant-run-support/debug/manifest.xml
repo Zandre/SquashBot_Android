@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.squashbot"
+    android:versionCode="23"
+    android:versionName="6.1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/SquashBotTheme" >
+        <activity
+            android:name="squashbot.dashboard.Dashboard"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="squashbot.dashboard.OptionsMenu"
+            android:label="@string/title_activity_options_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="squashbot.dashboard.ScoreGame"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="squashbot.dashboard.EnterNames"
+            android:label="@string/title_activity_enter_names"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="individual_results.Scoreboard"
+            android:label="@string/title_activity_scoreboard"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="individual_results.SelectResult"
+            android:label="@string/title_activity_select_result"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="tournament_activities.TournamentDashboard"
+            android:label="@string/title_activity_jarvis"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="tournament_activities.TournamentInfo"
+            android:label="@string/title_activity_jarvis_contacts"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="tournament_activities.Sections"
+            android:label="@string/title_activity_logs"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="squashbot.dashboard.Fixtures"
+            android:label="@string/title_activity_fixtures"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="enter_team_result.EnterTeamResult"
+            android:label="@string/title_activity_enter_team_result"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="tournament_activities.MatchResult"
+            android:label="@string/title_activity_match_result"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="tournament_activities.VerifyResult"
+            android:label="@string/title_activity_verify_result"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="rankings.Rankings"
+            android:label="@string/title_activity_rankings"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+        <activity
+            android:name="rankings.RankingEditor"
+            android:label="@string/title_activity_ranking_editor"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="tournament_activities.Filter"
+            android:label="@string/title_activity_filter" >
+        </activity>
+    </application>
+
+</manifest>

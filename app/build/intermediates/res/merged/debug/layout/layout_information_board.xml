@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+                android:background="@drawable/dark_blue_orange_edge_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Zandre&apos;s Message"
+        android:id="@+id/tv_messageTitle"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="3dp"
+        android:textColor="@color/Navy"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="14 January 2015"
+        android:id="@+id/tv_messageDate"
+        android:layout_below="@+id/tv_messageTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/Navy"
+        android:padding="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="This was a super nice tournament, really really enjoyed it!!! :-) #SWAG # YOLO"
+        android:id="@+id/tv_messageMessage"
+        android:layout_below="@+id/tv_messageDate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/Navy"
+        android:typeface="monospace"
+        android:textSize="18dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="3dp"
+        android:paddingLeft="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Zandre Botha"
+        android:id="@+id/tv_messageAuthor"
+        android:layout_below="@+id/tv_messageMessage"
+        android:layout_alignRight="@+id/tv_messageMessage"
+        android:layout_alignEnd="@+id/tv_messageMessage"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/Navy"/>
+</RelativeLayout>

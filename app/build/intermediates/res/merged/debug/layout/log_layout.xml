@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dark_blue_orange_edge_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_resultGames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_logHeader"
+        android:layout_below="@+id/tv_logHeader"
+        android:padding="5dp"
+        android:text="Log Points:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Red"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_logPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_resultGames"
+        android:layout_alignBottom="@+id/tv_resultGames"
+        android:layout_marginLeft="34dp"
+        android:layout_toRightOf="@+id/tv_resultGames"
+        android:text="15"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Red"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_logHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="5dp"
+        android:text="Parkview 04"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Navy"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_logPool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tv_logHeader"
+        android:padding="5dp"
+        android:text="Pool A"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Navy" />
+
+    <TextView
+        android:id="@+id/tv_fixturesPlayed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_resultGames"
+        android:layout_below="@+id/tv_resultGames"
+        android:paddingLeft="5dp"
+        android:text="Fixtures Played:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Navy" />
+
+    <TextView
+        android:id="@+id/tv_matchesPlayed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_fixturesPlayed"
+        android:layout_below="@+id/tv_fixturesPlayed"
+        android:paddingLeft="5dp"
+        android:text="Matches Played:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Navy" />
+
+    <TextView
+        android:id="@+id/tv_gamesPlayed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_matchesPlayed"
+        android:paddingLeft="5dp"
+        android:text="Games Played:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Navy" />
+
+    <TextView
+        android:id="@+id/tv_pointsPlayed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_gamesPlayed"
+        android:layout_below="@+id/tv_gamesPlayed"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:text="Points Played:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Navy" />
+
+    <TextView
+        android:id="@+id/tv_totalFixturesPlayed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_fixturesPlayed"
+        android:layout_alignLeft="@+id/tv_logPoints"
+        android:text="4"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Navy"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_totalMatchesPlayed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_matchesPlayed"
+        android:layout_alignLeft="@+id/tv_totalFixturesPlayed"
+        android:text="15"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Navy"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_eventV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_gamesPlayed"
+        android:layout_alignLeft="@+id/tv_totalMatchesPlayed"
+        android:text="30"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Navy"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_resultsTotalPointsPlayed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_pointsPlayed"
+        android:layout_alignBottom="@+id/tv_pointsPlayed"
+        android:layout_alignLeft="@+id/tv_eventV"
+        android:paddingBottom="5dp"
+        android:text="200"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Navy"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_totalPointsWon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_resultsTotalPointsPlayed"
+        android:layout_alignBottom="@+id/tv_resultsTotalPointsPlayed"
+        android:layout_toRightOf="@+id/tv_resultsTotalPointsPlayed"
+        android:text="150 /"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:textColor="@color/Green"
+       	android:paddingLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/tv_totalPointsLost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_totalPointsWon"
+        android:layout_toRightOf="@+id/tv_totalPointsWon"
+        android:text=" 50"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:textColor="@color/Red" />
+
+    <TextView
+        android:id="@+id/tv_totalGamesWon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_gamesPlayed"
+        android:layout_alignLeft="@+id/tv_totalPointsWon"
+        android:text="20 /"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:textColor="@color/Green"
+       	android:paddingLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/tv_totalGamesLost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_totalGamesWon"
+        android:layout_toRightOf="@+id/tv_totalGamesWon"
+        android:text=" 10"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:textColor="@color/Red" />
+
+    <TextView
+        android:id="@+id/tv_totalMatchesWon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_matchesPlayed"
+        android:layout_alignLeft="@+id/tv_totalGamesWon"
+        android:text="10 /"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:textColor="@color/Green"
+       	android:paddingLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/tv_totalMatchesLost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_totalMatchesWon"
+        android:layout_toRightOf="@+id/tv_totalMatchesWon"
+        android:text=" 5"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Red"  />
+
+    <TextView
+        android:id="@+id/tv_totalFixturesWon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_fixturesPlayed"
+        android:layout_alignLeft="@+id/tv_totalMatchesWon"
+        android:text="3 /"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:textColor="@color/Green"
+       	android:paddingLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/tv_totalFixturesLost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_totalFixturesWon"
+        android:layout_toRightOf="@+id/tv_totalFixturesWon"
+        android:text=" 1"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:textColor="@color/Red"/>
+
+    <TextView
+        android:id="@+id/tv_pointsPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_totalPointsLost"
+        android:layout_toRightOf="@+id/tv_totalPointsLost"
+        android:paddingLeft="15dp"
+        android:text="75%"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/DimGray" />
+
+    <TextView
+        android:id="@+id/tv_gamesPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_totalGamesLost"
+        android:layout_alignLeft="@+id/tv_pointsPercentage"
+        android:paddingLeft="15dp"
+        android:text="66.66%"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/DimGray" />
+
+    <TextView
+        android:id="@+id/tv_matchesPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_totalMatchesLost"
+        android:layout_alignLeft="@+id/tv_gamesPercentage"
+        android:paddingLeft="15dp"
+        android:text="66.66%"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/DimGray" />
+
+    <TextView
+        android:id="@+id/tv_fixturesPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_totalFixturesLost"
+        android:layout_alignLeft="@+id/tv_matchesPercentage"
+        android:paddingLeft="15dp"
+        android:text="75%"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/DimGray" />
+    
+</RelativeLayout>

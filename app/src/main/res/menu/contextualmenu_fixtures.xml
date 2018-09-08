@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/fixtures_shareThisFixture"
+        android:title="Share" />
+		
+	<item android:id="@+id/fixtures_shareAllFixtures"
+        android:title="Share all" />
+     
+	<item android:id="@+id/fixtures_addThisToCalendar"
+        android:title="Add fixture to Calendar" />
+	
+	<item android:id="@+id/fixtures_addAllToCalendar"
+        android:title="Add all fixtures to Calendar" />
+</menu>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/court_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dark_blue_orange_edge_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/scoreboard_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Batman vs Robin"
+        android:textAllCaps="false"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Navy"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/scoreboard_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/scoreboard_header"
+        android:text="Batman wins 3-0"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Red" />
+
+    <TextView
+        android:id="@+id/tv_edit_nameA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_setduration"
+        android:text="Venue:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"
+        android:textColor="@color/Navy"  />
+
+    <TextView
+        android:id="@+id/tv_edit_nameB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_edit_nameA"
+        android:text="Duration:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"
+        android:textColor="@color/Navy" />
+
+    <TextView
+        android:id="@+id/scoreboard_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_setduration"
+        android:layout_marginLeft="36dp"
+        android:layout_toRightOf="@+id/tv_edit_nameB"
+        android:text="17 feb 2014"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Navy" />
+
+    <TextView
+        android:id="@+id/scoreboard_venue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_edit_nameB"
+        android:layout_alignLeft="@+id/scoreboard_date"
+        android:text="PCC"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Navy" />
+
+    <TextView
+        android:id="@+id/scoreboard_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_edit_nameB"
+        android:layout_alignBottom="@+id/tv_edit_nameB"
+        android:layout_alignLeft="@+id/scoreboard_venue"
+        android:text="30:45"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Navy" />
+
+    <TextView
+        android:id="@+id/scoreboard_scores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/scoreboard_result"
+        android:layout_below="@+id/scoreboard_result"
+        android:text="11-3, 11-5, 11-1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Red" />
+
+    <TextView
+        android:id="@+id/tv_setduration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_edit_nameA"
+        android:layout_below="@+id/scoreboard_scores"
+        android:layout_marginTop="22dp"
+        android:text="Date:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"
+        android:textColor="@color/Navy" />
+
+</RelativeLayout>

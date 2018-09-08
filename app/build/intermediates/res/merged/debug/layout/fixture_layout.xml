@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dark_blue_orange_edge_background" >
+
+    <TextView
+        android:id="@+id/tv_resultGames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_teamHeader"
+        android:layout_below="@+id/tv_teamHeader"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:text="Court:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Navy"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_fixtureFixture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/tv_fixtureVenue"
+        android:padding="5dp"
+        android:text="NW vs Gauteng"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Navy"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_fixtureDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_fixtureFixture"
+        android:layout_below="@+id/tv_fixtureFixture"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="17 July 2015"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Navy"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv_fixtureVenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_teamHeader"
+        android:layout_alignBottom="@+id/tv_teamHeader"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/tv_teamHeader"
+        android:paddingLeft="10dp"
+        android:text="Defence"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Navy" />
+
+    <TextView
+        android:id="@+id/tv_fixtureCourt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_resultGames"
+        android:layout_alignBottom="@+id/tv_resultGames"
+        android:layout_toRightOf="@+id/tv_resultGames"
+        android:paddingLeft="10dp"
+        android:text="5"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Navy" />
+
+    <TextView
+        android:id="@+id/tv_teamHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_fixtureDate"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:text="Venue:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Navy"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_fixtureTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_fixtureDate"
+        android:layout_alignBaseline="@+id/tv_fixtureDate"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:text="14:00"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Navy"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_fixtureResultSubmitted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_fixtureCourt"
+        android:layout_alignBottom="@+id/tv_fixtureCourt"
+        android:layout_alignParentRight="true"
+        android:paddingRight="5dp"
+        android:text="result submitted"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/LimeGreen"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

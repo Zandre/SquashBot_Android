@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/results_shareThisResult"
+        android:title="Share" />
+		
+	<item android:id="@+id/results_shareAllResults"
+        android:title="Share all" />
+     
+</menu>

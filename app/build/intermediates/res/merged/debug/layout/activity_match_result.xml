@@ -1,0 +1,206 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/containerParent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/White"
+                tools:context="tournament_activities.MatchResult"
+                tools:ignore="MergeRootFrame" >
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fillViewport="true" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context="tournament_activities.MatchResult"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/tv_MatchResultHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Match #1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/OrangeRed"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:id="@+id/etA_MatchResult"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:ems="10"
+        android:hint="NW Player #1"
+        android:textColor="@color/OrangeRed"
+        android:textColorHint="@color/OrangeRed"
+        android:layout_below="@+id/tv_MatchResultHeader"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <requestFocus />
+    </EditText>
+
+
+        <EditText
+            android:id="@+id/etB_MatchResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="WP Player #1"
+            android:textColor="@color/DarkBlue"
+            android:textColorHint="@color/DarkBlue"
+            android:layout_toRightOf="@+id/etA_MatchResult"
+            android:layout_below="@+id/tv_MatchResultHeader"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerA1"
+            android:layout_toLeftOf="@+id/etB_MatchResult"
+            android:layout_below="@+id/etA_MatchResult"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/OrangeRed"
+            android:layout_margin="4dp"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerB1"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_below="@+id/etB_MatchResult"
+            android:layout_alignLeft="@+id/etB_MatchResult"
+            android:layout_alignRight="@+id/etB_MatchResult"
+            android:background="@color/DarkBlue"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerA2"
+            android:layout_below="@+id/spinnerA1"
+            android:background="@color/OrangeRed"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_alignRight="@+id/spinnerA1"
+            android:layout_alignEnd="@+id/spinnerA1"
+            android:layout_alignLeft="@+id/spinnerA1"
+            android:layout_alignStart="@+id/spinnerA1"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerB2"
+            android:layout_marginBottom="4dp"
+            android:background="@color/DarkBlue"
+            android:layout_alignRight="@+id/spinnerB1"
+            android:layout_alignEnd="@+id/spinnerB1"
+            android:layout_alignTop="@+id/spinnerA2"
+            android:layout_alignLeft="@+id/spinnerB1"
+            android:layout_alignStart="@+id/spinnerB1"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerA3"
+            android:layout_below="@+id/spinnerA2"
+            android:background="@color/OrangeRed"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_alignLeft="@+id/spinnerA2"
+            android:layout_alignStart="@+id/spinnerA2"
+            android:layout_alignRight="@+id/spinnerA2"
+            android:layout_alignEnd="@+id/spinnerA2"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerB3"
+            android:background="@color/DarkBlue"
+            android:layout_marginBottom="4dp"
+            android:layout_alignLeft="@+id/spinnerB2"
+            android:layout_alignStart="@+id/spinnerB2"
+            android:layout_alignTop="@+id/spinnerA3"
+            android:layout_alignRight="@+id/spinnerB2"
+            android:layout_alignEnd="@+id/spinnerB2"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerA4"
+            android:layout_below="@+id/spinnerA3"
+            android:background="@color/OrangeRed"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_alignLeft="@+id/spinnerA3"
+            android:layout_alignStart="@+id/spinnerA3"
+            android:layout_alignRight="@+id/spinnerA3"
+            android:layout_alignEnd="@+id/spinnerA3"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerB4"
+            android:background="@color/DarkBlue"
+            android:layout_marginBottom="4dp"
+            android:layout_alignLeft="@+id/spinnerB3"
+            android:layout_alignStart="@+id/spinnerB3"
+            android:layout_alignTop="@+id/spinnerA4"
+            android:layout_alignRight="@+id/spinnerB3"
+            android:layout_alignEnd="@+id/spinnerB3"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerA5"
+            android:layout_below="@+id/spinnerA4"
+            android:background="@color/OrangeRed"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_alignLeft="@+id/spinnerA4"
+            android:layout_alignStart="@+id/spinnerA4"
+            android:layout_alignRight="@+id/spinnerA4"
+            android:layout_alignEnd="@+id/spinnerA4"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerB5"
+            android:background="@color/DarkBlue"
+            android:layout_marginBottom="4dp"
+            android:layout_alignLeft="@+id/spinnerB4"
+            android:layout_alignStart="@+id/spinnerB4"
+            android:layout_alignRight="@+id/spinnerB4"
+            android:layout_alignEnd="@+id/spinnerB4"
+            android:layout_alignTop="@+id/spinnerA5"/>
+
+    </RelativeLayout>
+</ScrollView>
+
+    <RelativeLayout
+    android:id="@+id/MatchResult_resultList"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/OrangeRed"
+    android:padding="5dp"
+    android:visibility="invisible">
+
+    <ListView
+        android:id="@+id/lv_MatcResultresults"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="3dp" >
+
+    </ListView>
+    </RelativeLayout>
+    </RelativeLayout>

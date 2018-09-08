@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="squashbot.dashboard.OptionsMenu$PlaceholderFragment" >
+
+    <CheckBox
+        android:id="@+id/options_warmup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:checked="true"
+        android:text="Use warmup timer (5 min)"
+        android:textColor="@color/Navy" />
+
+    <CheckBox
+        android:id="@+id/options_between_games"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/options_warmup"
+        android:checked="true"
+        android:text="Use timer between games (90 sec)"
+        android:textColor="@color/Navy" />
+
+    <TextView
+        android:id="@+id/scoreboard_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/options_between_games"
+        android:layout_marginTop="23dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tv_setduration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/scoreboard_header"
+        android:layout_alignBottom="@+id/scoreboard_header"
+        android:layout_alignParentLeft="true"
+        android:text="Games played to: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Navy" />
+
+    <RadioGroup
+        android:id="@+id/rg_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_setduration" >
+
+        <RadioButton
+            android:id="@+id/nine_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="9 points"
+            android:textColor="@color/Navy" />
+
+        <RadioButton
+            android:id="@+id/eleven_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="11 points"
+            android:textColor="@color/Navy" />
+
+        <RadioButton
+            android:id="@+id/fifteen_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15 points"
+            android:textColor="@color/Navy" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_handout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rg_points"
+        android:layout_below="@+id/rg_points"
+        android:layout_marginTop="14dp"
+        android:text="Winner must have:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Navy" />
+
+    <RadioGroup
+        android:id="@+id/rg_sets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_handout"
+        android:layout_below="@+id/tv_handout" >
+
+        <RadioButton
+            android:id="@+id/one_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="1 set"
+            android:textColor="@color/Navy" />
+
+        <RadioButton
+            android:id="@+id/two_sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 sets"
+            android:textColor="@color/Navy" />
+
+        <RadioButton
+            android:id="@+id/three_sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="3 sets"
+            android:textColor="@color/Navy" />
+
+    </RadioGroup>
+
+</RelativeLayout>

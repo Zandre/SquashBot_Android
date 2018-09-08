@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="21"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="56875166163886"
+    token="-7486209713455853541"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build
+        timestamp="56786104848607"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\User\Desktop\Development\SquashBot Gradle 5.0.1\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="56875166163886"
+        verifier="COLD_SWAP_REQUESTED" />
+    <build
+        timestamp="216450751842941"
+        verifier="MANIFEST_FILE_CHANGE" >
+        <artifact
+            location="C:\Users\User\Desktop\Development\SquashBot Gradle 5.0.1\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

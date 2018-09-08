@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical"
+    tools:ignore="MergeRootFrame" >
+
+    <ImageView
+        android:id="@+id/tournamentDashboard_Image"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/squashbot_splash" />
+
+    <Button
+        android:id="@+id/btn_tournamentLogs"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_tournamentFixtures"
+        android:layout_below="@+id/tournamentDashboard_Image"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/button"
+        android:text="Logs"
+        android:textColor="@color/Navy" />
+
+    <Button
+        android:id="@+id/btn_tournamentFixtures"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_tournamentResults"
+        android:layout_below="@+id/btn_tournamentLogs"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button"
+        android:text="Fixtures"
+        android:textColor="@color/Navy" />
+
+    <Button
+        android:id="@+id/btn_tournamentResults"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_tournamentFixtures"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button"
+        android:text="Results"
+        android:textColor="@color/Navy" />
+
+    <Button
+        android:id="@+id/btn_tournamentInfo"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_tournamentResults"
+        android:layout_below="@+id/btn_tournamentResults"
+        android:background="@drawable/button"
+        android:text="Info"
+        android:textColor="@color/Navy" />
+
+</RelativeLayout>

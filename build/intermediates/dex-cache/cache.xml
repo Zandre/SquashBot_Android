@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="C:\Users\User\Desktop\Development\SquashBot Gradle 5.0.1\app\build\intermediates\pre-dexed\release\gson-2.8.0_a2c3719129df4b5f3db6518a233dd0f69a01373f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\User\Desktop\Development\SquashBot Gradle 5.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-19.1.0_3791088a8426f4e871d60d06e92e4846eb38cbc0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="C:\Users\User\Desktop\Development\SquashBot Gradle 5.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.8.0_a2c3719129df4b5f3db6518a233dd0f69a01373f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\Desktop\Development\SquashBot Gradle 5.0.1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="C:\Users\User\Desktop\Development\SquashBot Gradle 5.0.1\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-19.1.0_899c29137cfd54e80480941aaf9a885015058e24.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\Desktop\Development\SquashBot Gradle 5.0.1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="C:\Users\User\Desktop\Development\SquashBot Gradle 5.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-19.1.0_899c29137cfd54e80480941aaf9a885015058e24\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\User\Desktop\Development\SquashBot Gradle 5.0.1\app\build\intermediates\pre-dexed\release\support-v4-19.1.0_3791088a8426f4e871d60d06e92e4846eb38cbc0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\Desktop\Development\SquashBot Gradle 5.0.1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9fb116e6eff0ac20ef4a2a640abaded90ba0286c">
+        <dex dex="C:\Users\User\Desktop\Development\SquashBot Gradle 5.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c0b62a629c94f0e4b718bf23ee558843cf334852\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\Desktop\Development\SquashBot Gradle 5.0.1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="287b6faaf1a0fb41663b3679693a00fe3af782a1">
+        <dex dex="C:\Users\User\Desktop\Development\SquashBot Gradle 5.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_589be3be144de9e2fe572bead2bf14b7cb91b67e\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    tools:context="rankings.RankingEditor"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/btn_rankingEditor"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/button"
+        android:text="Button"
+        android:textColor="@color/OrangeRed"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_rankingEditor_playerA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinner_rankingEditor_playerA"
+        android:layout_toLeftOf="@+id/spinner_rankingEditor_playerA"
+        android:text="Match Winner"
+        android:textColor="@color/OrangeRed" />
+
+    <TextView
+        android:id="@+id/tv_rankingEditor_playerB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinner_rankingEditor_playerB"
+        android:layout_alignRight="@+id/tv_rankingEditor_playerA"
+        android:text="Match Loser"
+        android:textColor="@color/Aquamarine" />
+
+    <TextView
+        android:id="@+id/tv_rankingEditor_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/et_rankingEditor_points"
+        android:layout_alignBottom="@+id/et_rankingEditor_points"
+        android:layout_toLeftOf="@+id/et_rankingEditor_points"
+        android:text="Points: "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/OrangeRed" />
+
+    <TextView
+        android:id="@+id/tv_rankingEditor_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/et_rankingEditor_player"
+        android:layout_toLeftOf="@+id/et_rankingEditor_player"
+        android:text="Member Name: "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/OrangeRed" />
+
+    <Spinner
+        android:id="@+id/spinner_rankingEditor_playerA"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/spinner_rankingEditor_playerB"
+        android:layout_below="@+id/rdogrp_rankingEditor_gender"
+        android:background="@color/OrangeRed" />
+
+    <Spinner
+        android:id="@+id/spinner_rankingEditor_playerB"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/et_rankingEditor_player"
+        android:layout_below="@+id/spinner_rankingEditor_playerA"
+        android:background="@color/Aquamarine" />
+
+    <EditText
+        android:id="@+id/et_rankingEditor_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spinner_rankingEditor_playerB"
+        android:layout_marginRight="18dp"
+        android:ems="10"
+        android:hint="Member Name"
+        android:textColor="@color/OrangeRed" />
+
+
+
+    <EditText
+        android:id="@+id/et_rankingEditor_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_rankingEditor_player"
+        android:layout_below="@+id/et_rankingEditor_player"
+        android:ems="10"
+        android:hint="0.00"
+        android:inputType="numberDecimal"
+        android:textColor="@color/OrangeRed" />
+        
+    <EditText
+        android:id="@+id/et_rankingEditor_club"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_rankingEditor_points"
+        android:layout_below="@+id/et_rankingEditor_points"
+        android:ems="10"
+        android:hint="Club"
+        android:textColor="@color/OrangeRed" />
+
+    <TextView
+        android:id="@+id/tv_rankingEditor_club"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/et_rankingEditor_club"
+        android:layout_alignBottom="@+id/et_rankingEditor_club"
+        android:layout_toLeftOf="@+id/et_rankingEditor_club"
+        android:text="Club:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/OrangeRed" />
+
+    <RadioGroup
+        android:id="@+id/rdogrp_rankingEditor_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <RadioButton
+            android:id="@+id/rdo_rankingEditor_Men"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Men"
+            android:textColor="@color/OrangeRed" />
+
+        <RadioButton
+            android:id="@+id/rdo_rankingEditor_Women"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Women"
+            android:textColor="@color/OrangeRed" />
+    </RadioGroup>
+
+</RelativeLayout>
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/court_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_select_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="On Serve"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Switch
+        android:id="@+id/toggle_serve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_select_result"
+        android:layout_centerHorizontal="true"
+        android:checked="false"
+        android:textColor="@color/Black"
+        android:textOff="Robin"
+        android:textOn="Batman" />
+
+    <TextView
+        android:id="@+id/tv_select_venue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggle_serve"
+        android:layout_centerHorizontal="true"
+        android:text="Side"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Switch
+        android:id="@+id/toggle_side"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_select_venue"
+        android:layout_centerHorizontal="true"
+        android:checked="true"
+        android:textColor="@color/Black"
+        android:textOff="LEFT"
+        android:textOn="RIGHT" />
+
+    <NumberPicker
+        android:id="@+id/np_A"
+        android:layout_width="50dp"
+        android:layout_height="135dp"
+        android:layout_alignTop="@+id/np_B"
+        android:layout_toRightOf="@+id/tv_select_venue" >
+
+    </NumberPicker>
+
+    <NumberPicker
+        android:id="@+id/np_B"
+        android:layout_width="50dp"
+        android:layout_height="135dp"
+        android:layout_alignLeft="@+id/toggle_side"
+        android:layout_below="@+id/toggle_side"
+        android:layout_marginTop="28dp" />
+
+    <TextView
+        android:id="@+id/tv_edit_nameA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/np_A"
+        android:layout_alignLeft="@+id/np_A"
+        android:text="Batman"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_edit_nameB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/np_A"
+        android:layout_toLeftOf="@+id/tv_select_venue"
+        android:text="Robin"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

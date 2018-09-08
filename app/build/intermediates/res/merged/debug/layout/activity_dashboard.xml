@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context="squashbot.dashboard.Dashboard"
+    tools:ignore="MergeRootFrame" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon" />
+
+    <Button
+        android:id="@+id/dashboard_jarvis"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dashboard_score_game"
+        android:layout_below="@+id/dashboard_score_game"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button"
+        android:text="Tournaments/Leagues"
+        android:textColor="@color/Navy"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/dashboard_Results"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dashboard_jarvis"
+        android:layout_below="@+id/dashboard_jarvis"
+        android:background="@drawable/button"
+        android:text="My Results"
+        android:textColor="@color/Navy"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/dashboard_score_game"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:text="Score New Game"
+        android:textColor="@color/Navy"
+        android:textStyle="bold" />
+
+</RelativeLayout>

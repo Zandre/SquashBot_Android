@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dark_blue_orange_edge_background"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/tv_contactName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="3dp"
+        android:text="Charlie Fourie"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Navy"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_contactNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_contactName"
+        android:layout_below="@+id/tv_contactName"
+        android:paddingBottom="3dp"
+        android:text="0729994587"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Navy" />
+
+    <TextView
+        android:id="@+id/tv_contactRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_contactNumber"
+        android:paddingBottom="3dp"
+        android:text="Men, C Section, NW"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Navy" />
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\enter_names.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\enter_names.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\contextualmenu_venue.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\contextualmenu_venue.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\enter_team_result.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\enter_team_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\jarvis_contacts.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\jarvis_contacts.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\options_menu.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\options_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\edit.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\rankings.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\rankings.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\contextualmenu_events.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\contextualmenu_events.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\scoreboard.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\scoreboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\logs.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\logs.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\verify_result.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\verify_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\tournamentdashboard.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\tournamentdashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\match_result.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\match_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\contextualmenu_log.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\contextualmenu_log.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\ranking_editor.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\ranking_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\select_result.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\select_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\contextualmenu_results.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\contextualmenu_results.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\contextualmenu_fixtures.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\contextualmenu_fixtures.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\filter.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\contextualmenu_contact.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\contextualmenu_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\dashboard.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\contextualmenu_informationboard.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\contextualmenu_informationboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fixtures.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\fixtures.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\score_game.xml",
+        "source": "C:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\src\\main\\res\\menu\\score_game.xml"
+    }
+]

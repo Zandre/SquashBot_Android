@@ -1,0 +1,7 @@
+#Sun Jun 17 19:33:56 CAT 2018
+base.0=C\:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_589be3be144de9e2fe572bead2bf14b7cb91b67e
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_c0b62a629c94f0e4b718bf23ee558843cf334852\\classes.dex
+base.1=C\:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_c0b62a629c94f0e4b718bf23ee558843cf334852
+file.0=C\:\\Users\\User\\Desktop\\Development\\SquashBot Gradle 5.0.1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_589be3be144de9e2fe572bead2bf14b7cb91b67e\\classes.dex

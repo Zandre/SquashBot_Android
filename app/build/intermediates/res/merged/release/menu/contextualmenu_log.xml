@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/log_shareLog"
+        android:title="Share log" />
+ 
+    <item android:id="@+id/log_viewResults"
+        android:title="Results" />
+    
+    <item android:id="@+id/log_viewFixtures"
+        android:title="Fixtures" />
+
+    <item android:id="@+id/log_viewUpcomingFixture"
+          android:title="Upcoming Fixture" />
+    
+</menu>

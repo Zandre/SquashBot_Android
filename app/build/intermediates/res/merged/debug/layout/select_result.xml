@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/court_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dark_blue_orange_edge_background"
+                android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_select_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Batman beat Robin 3-1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Navy"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_select_venue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_select_result"
+        android:text="Nmmu"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Navy"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_select_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_select_venue"
+        android:text="2014-10-31"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Navy"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cb_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_select_date"
+        android:layout_alignParentRight="true"
+        android:text="Delete"
+        android:textColor="@color/Navy"
+        android:layout_marginRight="10dp"/>
+
+</RelativeLayout>

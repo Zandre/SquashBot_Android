@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.squashbotv2.EnterNames" >
+
+    <item
+        android:id="@+id/next"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:icon="@drawable/next"/>
+
+</menu>

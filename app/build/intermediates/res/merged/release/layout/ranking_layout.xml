@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ranking"
+    android:clickable="false"
+    android:clipToPadding="false"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:orientation="vertical"
+    android:paddingBottom="4dp"
+    android:scrollbarAlwaysDrawVerticalTrack="false" >
+
+    <TextView
+        android:id="@+id/tv_venueAdr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="1."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/DarkBlue" 
+        android:focusable="false"
+        android:clickable="false"
+        android:focusableInTouchMode="false"
+        android:padding="3dp"/>
+
+    <TextView
+        android:id="@+id/tvRanking_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tv_venueAdr"
+        android:text="Steve Coppinger"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/DarkBlue"
+        android:textStyle="bold" 
+        android:focusable="false"
+        android:clickable="false"
+        android:focusableInTouchMode="false"
+        android:padding="3dp"/>
+
+    <TextView
+        android:id="@+id/tv_venueG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="900"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/DarkBlue"
+        android:focusable="false"
+        android:clickable="false" 
+        android:focusableInTouchMode="false"
+        android:padding="3dp"/>
+
+    <TextView
+        android:id="@+id/tvRanking_club"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/tvRanking_name"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text=" (KZN)"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/DarkBlue"
+        android:textSize="13sp" />
+
+</RelativeLayout>

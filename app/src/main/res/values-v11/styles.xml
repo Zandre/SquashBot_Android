@@ -1,0 +1,76 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme for API 11+. This theme completely replaces
+        AppBaseTheme from res/values/styles.xml on API 11+ devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+    
+    <!-- SQUASHBOT THEME -->
+    <style name="SquashBotTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+	    
+	    <item name="android:actionBarTabStyle">@style/SquashBotTheme.ActionBar.Tab</item>
+	    <item name="actionBarTabStyle">@style/SquashBotTheme.ActionBar.Tab</item>
+	    
+	    <item name="android:actionBarStyle">@style/SquashBotTheme.ActionBarTheme</item>
+	    
+	    <item name="android:actionDropDownStyle">@style/SquashBotTheme.DropDownNavigation</item>
+	    <item name="actionDropDownStyle">@style/SquashBotTheme.DropDownNavigation</item>
+	    
+	    
+	    
+	    <item name="android:dropDownListViewStyle">@style/PopupMenuListView</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+ 
+        <!-- Change Overflow Menu ListView Item Height & Property -->
+        <item name="android:listPreferredItemHeightSmall">45dp</item>
+        <item name="android:listPreferredItemPaddingLeft">5dp</item>
+        <item name="android:listPreferredItemPaddingRight">5dp</item>
+   
+	</style>
+	
+    
+    
+    <!-- Change Overflow Menu ListView Divider Property -->
+    <style name="PopupMenuListView" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:divider">@color/Navy</item>
+        <item name="android:dividerHeight">2dp</item>
+    </style>
+ 
+     <!-- Change Overflow Menu Background -->
+     <style name="PopupMenu" parent="android:Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@color/OrangeRed</item>
+    </style>
+    
+    
+    
+    
+    	
+    <!-- ACTIONBAR TABS THEME -->
+    <style name="SquashBotTheme.ActionBar.Tab" parent="Theme.AppCompat.Light.DarkActionBar">
+	    <item name="android:background">@drawable/tab</item>
+	</style>
+	   
+	
+    <!-- ACTIONBAR THEME -->
+    <style name="SquashBotTheme.ActionBarTheme" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_theme</item>
+        <item name="android:titleTextStyle">@style/SquashBotTheme.TitleText</item>
+    </style>
+    
+   <!-- TITLE TEXT --> 
+   <style name="SquashBotTheme.TitleText" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:textColor">@color/OrangeRed</item>
+    </style>
+    
+   
+   <!-- DROPDOWN ITEM -->
+   <style name="SquashBotTheme.DropDownNavigation" parent="@android:style/Widget.Holo.Spinner">
+       <item name = "android:popupBackground">@color/OrangeRed</item>
+       <item name = "android:background">@color/Orange</item>
+   </style>
+   
+	
+</resources>

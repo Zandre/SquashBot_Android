@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <TextView
+        android:id="@+id/tv_dialog1_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Are you sure you want to abandon this match..."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/OrangeRed"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/dialog1_btn1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_button"
+            android:text="No"
+            android:textColor="@color/Blue" />
+
+        <Button
+            android:id="@+id/dialog1_btn2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_button"
+            android:text="Yes"
+            android:textColor="@color/Blue" />
+
+    </LinearLayout>
+
+</LinearLayout>

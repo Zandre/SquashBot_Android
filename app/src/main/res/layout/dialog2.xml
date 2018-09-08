@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <RelativeLayout
+        android:id="@+id/court_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ProgressBar
+            android:id="@+id/pb_dialog2"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:padding="5dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_dialog2_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/pb_dialog2"
+            android:padding="5dp"
+            android:text="Warmup"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/OrangeRed"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_dialog2_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_dialog2_header"
+            android:layout_below="@+id/tv_dialog2_header"
+            android:text="250 secs remaining"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/OrangeRed"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_dialog2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/dialog_button"
+        android:text="Start Game" />
+
+</LinearLayout>
